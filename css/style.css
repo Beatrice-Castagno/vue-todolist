@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: 	indianred;
+}
+
+.background {
+  height: 200px;
+  background-image: url("../img/lista-spesa.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.container_lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.container_lista ul {
+  color: orange;
+  font-weight: bold;
+}
+
+.container_lista li {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.blocco_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blocco_input input {
+  margin: 0 10px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid grey;
+  text-align: center;
+  padding: 3px;
+}
+
+.blocco_input button {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
+  padding: 5px;
+  background-color: floralwhite;
+  color: orange;
+}
+
+.close {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  margin-left: 20px;
+}
